@@ -1,0 +1,45 @@
+body {
+    font-family: verdana, arial, times;
+    font-size: 12px;
+    color: navy;
+}
+td {
+    vertical-align: top;
+    font-family: verdana, arial, times;
+    font-size: 12px;
+    color: navy;
+}
+legend {
+    color: navy;
+}
+fieldset {
+    text-align: left;
+    width: 550px;
+    padding: 25px;
+}
+a {
+    color: blue;
+    font-weight: bold;
+}
+a:hover {
+    color: crimson;
+}
+select.dropclass {
+    width: 450px;
+    background: transparent;
+    padding: 5px;
+    border: 1px solid #3F0080;
+    border-radius: 7px;
+}
+select.dropclass:focus {
+    outline: none;
+}
+.button-send {
+    font-size: 20px;
+    background: transparent;
+    color: navy;
+    border: 1px solid rgb(0, 0, 128);
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 540px;
+}
