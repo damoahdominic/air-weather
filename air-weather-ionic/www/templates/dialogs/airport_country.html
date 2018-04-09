@@ -1,0 +1,22 @@
+<ion-modal-view>
+  <div class="bar bar-header item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" placeholder="Search Country" ng-model="filterAirports">
+  </label>
+  <button class="button button-clear" ng-click="closeChooser()">
+    Close
+  </button>
+</div>
+  <ion-content>
+       <div class="spacer"></div>
+        <div class="list">
+           <div class="og" ng-repeat="country in listAir | filter: filterAirports">
+              <a class="item item-avatar" href="#" ng-click="chooseStation(country.code)">
+                  <img src="img/flags/{{country.flag}}.png">
+                  <h2>{{country.name}}</h2>
+              </a>
+           </div>
+        </div>
+  </ion-content>
+</ion-modal-view>

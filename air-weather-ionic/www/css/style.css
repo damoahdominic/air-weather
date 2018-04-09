@@ -1,0 +1,139 @@
+/* Not Enough? Add your own CSS if you like */
+body {
+    cursor: url('../img/finger.png'), auto;
+}
+@font-face {
+    font-family: 'RobotoX';
+    src: url('font/rob.ttf') format('truetype');
+}
+#intro-head.bar-header {
+    border-bottom: none;
+}
+.li-img {
+
+}
+.cloud-marg {
+    margin-top: 15px;
+}
+.cloud-icon {
+    font-size: 65px;
+    margin-top: 10px;
+}
+.end-lone {
+    margin-bottom: 50px;
+}
+
+.station-group {
+    width: 90%;
+    min-height: 199px;
+    margin-left: auto;
+    color: #262626;
+    padding-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background-color: rgba(255, 255, 255, 0.11);
+    margin-top: 30px;
+    margin-right: auto;
+    border-radius: 3px;
+}
+.metar-bar {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    min-height: 40px;
+    border-radius: 4px;
+    background-color: white;
+}
+.spacer {
+    margin-top: 42px;
+}
+.station-group>.header{
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.station-group>.content {
+    padding: 10px;
+}
+.station-group>.header>.title{
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+}
+.donate {
+    font-size: 100px;
+    color: #387ef5;
+}
+.donate-bar {
+    margin-top: 50px;
+}
+.donate-text {
+    margin-top: 10px;
+    padding: 5px;
+}
+.w-card {
+   font-family: 'RobotoX';
+    min-height: 260px;
+    color: white;
+    background: #207ce5;
+    margin-top: -0px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.4) inset;
+    padding-bottom: 50px;
+}
+.icon-menu {
+    margin-right: 10px!important;
+}
+.showcase {
+    width:100%;
+    min-height: 165px;
+    background: white;
+}
+.station-code {
+	margin-top: 30px;
+    padding: 10px;
+}
+.station-title{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.station-stamp {
+    font-weight: bold;
+}
+.station-temp {
+    font-size: 70px;
+    margin-top: 40px;
+}
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  padding-top: 80px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+#logo {
+  margin: 30px 0px;
+}
+
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+#list ol {
+  margin-top: 30px;
+}
+#list ol li {
+  text-align: left;
+  list-style: decimal;
+  margin: 10px 0px;
+}
+

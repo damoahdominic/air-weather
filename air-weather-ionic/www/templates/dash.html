@@ -1,0 +1,60 @@
+<!--
+Template
+
+<div class="station-title">Kotoka Intn, Accra</div>
+             <div class="station-stamp">3:00 PM GMT</div>
+             <div class="station-temp">23 &#8451;</div>
+            <div class="station-code"> DGAA 141700Z 13007KT 4000 HZ NSC 29/24 Q1010 NOSIG</div>
+-->
+
+<ion-view view-title="Dashboard">
+    <ion-nav-buttons side="right">
+         <button class="button button-icon button-clear ion-ios-plus-empty" ng-click="chooseCountry()">
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="text-center">
+        <ion-refresher pulling-text="Pull to refresh" on-refresh="doRefresh()">
+        </ion-refresher>
+         <div class="w-card">
+            <div class="station-title">{{dash_data.title}}</div>
+             <div class="station-stamp">{{dash_data.time}}</div>
+             <div class="station-temp">{{dash_data.temp}}&degC</div>
+            <div class="station-code"> {{dash_data.metar}}</div>
+        </div>
+        <!--<ion-slide-box>
+          <ion-slide>
+            <div class="station-group lone">
+                <div class="header">
+                   <div class="title">
+                        <span>Details and Visibility</span>
+                   </div>
+                </div>
+                <div class="content">
+                    <p><i style="font-size:70px" class="wi {{dash_data.cond_icon}}"></i></p>
+                    <p class="cloud-marg">{{dash_data.cond}}</p>
+                    <p style="margin-top: -8px;">{{dash_data.visibility}}</p>
+                </div>
+            </div>
+          </ion-slide>
+          <ion-slide>
+             <div class="station-group end-lone">
+                <div class="header">
+                   <div class="title">
+                        <span>Wind and Pressure</span>
+                   </div>
+                </div>
+                <div class="content">
+                   <p><i style="font-size:70px" class="wi wi-barometer"></i></p>
+                    <p>{{dash_data.wind.desc}}</p>
+                    <p>{{dash_data.pressure.desc}}</p>
+                </div>
+        </div>
+          </ion-slide>
+
+        </ion-slide-box>-->
+
+
+
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+<ion-modal-view>
+  <div class="bar bar-header item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios-search placeholder-icon"></i>
+    <input type="search" placeholder="Search Station" ng-model="filterStation">
+  </label>
+  <button class="button button-clear" ng-click="closeChooserStation()">
+    Back
+  </button>
+</div>
+  <ion-content>
+       <div class="spacer"></div>
+        <div class="list">
+           <div class="og" ng-repeat="station in listStation | filter: filterStation">
+             <a class="item item-icon-left" href="#" ng-click="selectAirport(station.icao)">
+                <i class="icon ion-location"></i>
+                {{station.title}}
+              </a>
+           </div>
+        </div>
+  </ion-content>
+</ion-modal-view>
